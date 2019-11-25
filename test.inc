@@ -7,3 +7,4 @@ xxxx
 >>>>>>> remotes/origin/master
 aaa
 bbb
+001

@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a105d3-3572-483a-8474-bfe08a211a70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/go-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duf1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.inc" beforeDir="false" afterPath="$PROJECT_DIR$/test.inc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -27,7 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test_b" />
       </map>
     </option>
   </component>
@@ -105,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574683253552</updated>
-      <workItem from="1574683254682" duration="1285000" />
+      <workItem from="1574683254682" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1574683307242</created>
@@ -135,18 +141,11 @@
       <option name="project" value="LOCAL" />
       <updated>1574686767790</updated>
     </task>
-    <task id="LOCAL-00005" summary="test b diff">
-      <created>1574686875693</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1574686875693</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1285000" />
+    <option name="totallyTimeSpent" value="1264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="-1102" width="1629" height="1027" extended-state="0" />
@@ -184,8 +183,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>

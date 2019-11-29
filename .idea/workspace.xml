@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="311076d0-cdee-40ab-9a61-efaa288ae236" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch1-01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_url.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1129.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duf1.go" beforeDir="false" afterPath="$PROJECT_DIR$/duf1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/acroca/go-symbols" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/acroca/go-symbols" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/cweill/gotests" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/cweill/gotests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/fatih/gomodifytags" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/fatih/gomodifytags" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/golang/lint" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/golang/lint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/nsf/gocode" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/nsf/gocode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/ramya-rao-a/go-outline" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/ramya-rao-a/go-outline" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/rogpeppe/godef" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/rogpeppe/godef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/sqs/goreturns" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/sqs/goreturns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/github.com/tpng/gopkgs" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/github.com/tpng/gopkgs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/golang.org/x/tools" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/golang.org/x/tools" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/sourcegraph.com/sqs/goreturns" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/sourcegraph.com/sqs/goreturns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +42,25 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UE4pth3hQ3ZmHkkOEpxrfAC1ie" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -42,7 +69,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,5 +173,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

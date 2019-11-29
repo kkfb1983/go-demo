@@ -4,3 +4,4 @@ vendor/.DS_Store
 composer.phar
 \.idea/workspace.xml
 *.DS_Store
+.idea/*

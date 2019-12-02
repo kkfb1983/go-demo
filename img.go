@@ -6,9 +6,11 @@ import (
 	"image/color"
 	"image/gif"
 	"io"
+	"log"
 	"math"
 	"math/rand"
-	"os"
+	"net/http"
+	//"os"
 	"time"
 )
 
@@ -24,7 +26,17 @@ func main() {
 	// the pseudo-random number generator using the current time.
 	// Thanks to Randall McPherson for pointing out the omission.
 	rand.Seed(time.Now().UTC().UnixNano())
-	lissajous(os.Stdout)
+	//lissajous(os.Stdout)
+	//handler := func(w http.ResponseWriter, r *http.Request) {
+	//	lissajous(w)
+	//}
+	//http.HandleFunc("/", handler)
+	//或者另一种等价形式：
+
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		lissajous(w)
+	})
+	log.Fatal(http.ListenAndServe("localhost:8800", nil))
 }
 
 func lissajous(out io.Writer) {

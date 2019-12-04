@@ -37,6 +37,8 @@ func main() {
 	gcd(24,6) // 最大公约数
 	fib(5) 	// 斐波纳契数列（Fibonacci）的第N个数
 	//os.Open("test.log")
+	medals := []string{"gold", "silver", "bronze"}
+	fmt.Println(medals)
 }
 
 func gcd(x, y int) int {

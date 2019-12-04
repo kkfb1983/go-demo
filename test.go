@@ -10,6 +10,7 @@ import (
 	"math/rand"
 	"os"
 	"time"
+	"fmt"
 )
 
 var palette = []color.Color{color.White, color.Black}
@@ -23,10 +24,51 @@ func main() {
 	// The sequence of images is deterministic unless we seed
 	// the pseudo-random number generator using the current time.
 	// Thanks to Randall McPherson for pointing out the omission.
+	//p := new(int)   // p, *int 类型, 指向匿名的 int 变量
+	//fmt.Println(*p) // "0"
+	//*p = 2          // 设置 int 匿名变量的值为 2
+	//fmt.Println(*p) // "2"
+	//fmt.Println(p)  // 0xc000090010
 	rand.Seed(time.Now().UTC().UnixNano())
-	lissajous(os.Stdout)
+	//lissajous(os.Stdout)
+	test(os.Args)
+	fmt.Println(f() == f()) // "false"
+	fmt.Println(e() == e()) // "false"
+	gcd(24,6) // 最大公约数
+	fib(5) 	// 斐波纳契数列（Fibonacci）的第N个数
+	//os.Open("test.log")
 }
 
+func gcd(x, y int) int {
+	for y != 0 {
+		x, y = y, x%y
+		//fmt.Println(x , y)
+	}
+	return x
+}
+
+func fib(n int) int {
+	x, y := 0, 1
+	for i := 0; i < n; i++ {
+		x, y = y, x+y
+		fmt.Println(x , y)
+	}
+	return x
+}
+
+func test(data []string){
+	fmt.Println(data)
+}
+var p = f()
+
+func f() *int {
+	v := 1
+	return &v
+}
+func e() int {
+	v := 1
+	return v
+}
 func lissajous(out io.Writer) {
 	const (
 		cycles  = 5     // number of complete x oscillator revolutions
